@@ -14,7 +14,8 @@ import FloatingButtons from './Components/floatingbutton';
 function App() {
   return (
     <CartProvider>
-      <Router>
+      {/* Add basename here */}
+      <Router basename="/E-commerce-website-">
         <Header />
         <FloatingButtons />
         <Routes>
@@ -33,5 +34,3 @@ function App() {
 }
 
 export default App;
-
-
